@@ -1,0 +1,299 @@
+{
+    "title": {
+        "resetPassword": "Reset Password",
+        "setPassword": "Set Password",
+        "editProfile": "Edit Profile",
+        "download": "Download",
+        "pageNotFound": "Page Not Found",
+        "details": "Details"
+    },
+    "projectShow": {
+        "tab": {
+            "formAccess": "Form Access"
+        }
+    },
+    "formHead": {
+        "tab": {
+            "versions": "Versions",
+            "publicAccess": "Public Access"
+        },
+        "draftNav": {
+            "tab": {
+                "status": "Status",
+                "attachments": "Media Files",
+                "testing": "Testing"
+            }
+        }
+    },
+    "systemHome": {
+        "title": "System Management",
+        "tab": {
+            "backups": "Backups",
+            "audits": "Server Audit Logs",
+            "analytics": "Usage Reporting"
+        }
+    },
+    "role": {
+        "none": "None",
+        "admin": "Administrator",
+        "manager": "Project Manager",
+        "viewer": "Project Viewer",
+        "formfill": "Data Collector"
+    },
+    "formState": {
+        "open": "Open",
+        "closing": "Closing",
+        "closed": "Closed",
+        "unpublished": "Not published yet"
+    },
+    "reviewState": {
+        "received": "Received",
+        "null": "@:reviewState.received",
+        "hasIssues": "Has issues",
+        "edited": "Edited",
+        "approved": "Approved",
+        "rejected": "Rejected"
+    },
+    "audit": {
+        "category": {
+            "nonverbose": "(All Actions)",
+            "user": "Web User Actions",
+            "project": "Project Actions",
+            "form": "Form Actions",
+            "field_key": "App User Actions",
+            "public_link": "Public Access Link Actions",
+            "config": "Server Configuration Actions",
+            "upgrade": "Server Upgrade"
+        },
+        "action": {
+            "default": {
+                "create": "Create",
+                "update": "Update Details",
+                "session_end": "Revoke",
+                "delete": "Delete"
+            },
+            "analytics": "Report Usage",
+            "backup": "Backup",
+            "config": {
+                "set": "Set"
+            },
+            "field_key": {
+                "create": "@:audit.action.default.create",
+                "assignment_create": "Give Access",
+                "assignment_delete": "Remove Access",
+                "session_end": "@:audit.action.default.session_end",
+                "delete": "@:audit.action.default.delete"
+            },
+            "form": {
+                "create": "@:audit.action.default.create",
+                "update": "@:audit.action.default.update",
+                "update_draft_set": "Create or Update Draft",
+                "update_publish": "Publish Draft",
+                "update_draft_delete": "Abandon Draft",
+                "attachment_update": "Update Attachments",
+                "submission_export": "Download Submissions",
+                "delete": "@:audit.action.default.delete",
+                "restore": "Undelete",
+                "purge": "Purge"
+            },
+            "project": {
+                "create": "@:audit.action.default.create",
+                "update": "@:audit.action.default.update",
+                "delete": "@:audit.action.default.delete"
+            },
+            "public_link": {
+                "create": "@:audit.action.default.create",
+                "assignment_create": "Give Access",
+                "assignment_delete": "Remove Access",
+                "session_end": "@:audit.action.default.session_end",
+                "delete": "@:audit.action.default.delete"
+            },
+            "upgrade": {
+                "process_form": "Process Form",
+                "process_form_draft": "Process Form Draft"
+            },
+            "user": {
+                "create": "@:audit.action.default.create",
+                "update": "@:audit.action.default.update",
+                "assignment_create": "Assign Role",
+                "assignment_delete": "Revoke Role",
+                "session_create": "@:action.logIn",
+                "delete": "Retire"
+            }
+        }
+    },
+    "action": {
+        "cancel": "Cancel",
+        "clear": "Clear",
+        "close": "Close",
+        "comment": "Comment",
+        "create": "Create",
+        "createSubmission": "New",
+        "done": "Done",
+        "download": "Download",
+        "edit": "Edit",
+        "editProfile": "Edit profile",
+        "logIn": "Log in",
+        "looksGood": "Looks good, proceed",
+        "more": "More",
+        "neverMind": "Never mind, cancel",
+        "next": "Next",
+        "noCancel": "No, cancel",
+        "ok": "Okay",
+        "proceed": "Proceed",
+        "refresh": "Refresh",
+        "resetPassword": "Reset password",
+        "review": "Review",
+        "save": "Save",
+        "saveSettings": "Save settings",
+        "sort": "Sort",
+        "update": "Update",
+        "yesProceed": "Yes, proceed",
+        "showPreview": "Preview",
+        "hidePreview": "Hide preview"
+    },
+    "field": {
+        "comment": "Leave a comment…",
+        "dateRange": "Date range",
+        "displayName": "Display name",
+        "email": "Email address",
+        "name": "Name",
+        "newPassword": "New password",
+        "oldPassword": "Old password",
+        "passphrase": "Passphrase",
+        "password": "Password",
+        "passwordConfirm": "New password (confirm)",
+        "reviewState": "Review State",
+        "type": "Type"
+    },
+    "header": {
+        "actions": "Actions",
+        "created": "Created",
+        "createdBy": "Created by",
+        "displayName": "Display Name",
+        "email": "Email Address",
+        "instanceId": "Instance ID",
+        "lastSubmission": "Latest Submission",
+        "name": "Name",
+        "submitterName": "Submitted by",
+        "submissionDate": "Submitted at",
+        "time": "Time",
+        "type": "Type"
+    },
+    "plural": {
+        "appUser": "App User | App Users",
+        "form": "Form | Forms",
+        "project": "Project | Projects",
+        "submission": "Submission | Submissions",
+        "user": "User | Users",
+        "webUser": "Web User | Web Users"
+    },
+    "count": {
+        "appUser": "{count} App User | {count} App Users",
+        "form": "{count} Form | {count} Forms",
+        "submission": "{count} Submission | {count} Submissions"
+    },
+    "resource": {
+        "appUser": "App User",
+        "appUsers": "App Users",
+        "config": "Server Configuration",
+        "form": "Form",
+        "forms": "Forms",
+        "project": "Project",
+        "projects": "Projects",
+        "publicLink": "Public Access Link",
+        "user": "User",
+        "users": "Users",
+        "webUser": "Web User",
+        "webUsers": "Web Users",
+        "session": "Session",
+        "submissions": "Submissions",
+        "projectRoles": "Project Roles"
+    },
+    "alert": {
+        "passwordTooShort": "Please input a password at least 10 characters long.",
+        "updateReviewState": "Review State saved!",
+        "versionChange": "The server has been updated. Please refresh the page to avoid unpredictable behavior."
+    },
+    "moreInfo": {
+        "clickHere": {
+            "full": "For more information, {clickHere}.",
+            "clickHere": "click here"
+        },
+        "helpArticle": {
+            "full": "For more information, please see {helpArticle}.",
+            "helpArticle": "this help article"
+        },
+        "learnMore": "Learn more."
+    },
+    "analytics": {
+        "alwaysImprove": "We are always trying to improve ODK Central.",
+        "needFeedback": {
+            "full": "To do this, we need {your} feedback, so that we can understand how you are using Central, and how it could be better for you.",
+            "your": "your"
+        }
+    },
+    "submission": {
+        "missingMedia": "Missing media",
+        "action": {
+            "edit": "Edit ({count})"
+        },
+        "editDisabled": "You cannot edit encrypted Submissions.",
+        "binaryLinkTitle": "File was submitted. Click to download.",
+        "encryptionMessage": "Data preview is not available due to encryption.",
+        "noSubmission": "(none)"
+    },
+    "common": {
+        "activity": "Activity",
+        "anybody": "(Anybody)",
+        "areYouSure": "Are you sure you wish to proceed?",
+        "basicInfo": "Basic Information",
+        "currentDraft": "Your Current Draft",
+        "dangerZone": "Danger Zone",
+        "docs": "Docs",
+        "filter": "Filter",
+        "forum": "Forum",
+        "loading": "Loading…",
+        "no": "No",
+        "noResults": "No results",
+        "rightNow": "Right Now",
+        "success": "Success!",
+        "system": "System",
+        "yes": "Yes",
+        "tab": {
+            "settings": "Settings",
+            "overview": "Overview"
+        },
+        "total": "Total",
+        "lastSubmission": "(last {dateTime})"
+    },
+    "mixin": {
+        "request": {
+            "alert": {
+                "fileSize": "The file “{name}” that you are trying to upload is larger than the 100 MB limit."
+            }
+        }
+    },
+    "presenter": {
+        "Project": {
+            "nameWithArchived": "{name} (archived)"
+        }
+    },
+    "util": {
+        "request": {
+            "noRequest": "Something went wrong: there was no request.",
+            "noResponse": "Something went wrong: there was no response to your request.",
+            "errorNotProblem": "Something went wrong: error code {status}."
+        },
+        "session": {
+            "alert": {
+                "expiresSoon": "Your session will expire in 2 minutes, and you be automatically logged out.",
+                "expired": "Your session has expired. To continue working, please log in again.",
+                "logoutError": "There was a problem, and you were not fully logged out. Please refresh the page and try logging out again. {message}"
+            }
+        }
+    },
+    "router": {
+        "unsavedChanges": "Are you sure you want to leave this page? Your changes might not be saved."
+    }
+}
